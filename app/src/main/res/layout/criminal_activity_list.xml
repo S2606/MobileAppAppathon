@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:focusable="true"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Shagun Khemka"
+        android:textSize="20sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/cr_name"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/danger" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CORRUPT"
+        android:clickable="false"
+        android:background="#bc1705"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textSize="10sp"
+        android:textColor="#ffffff"
+        android:id="@+id/isornotcorrupt"
+        android:layout_below="@+id/cr_name"
+        android:layout_alignStart="@+id/cr_name"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/danger"
+        android:text="12"
+        android:background="@drawable/background_danger"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cr_name"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_location_on_black_24dp" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/danger"
+        android:layout_alignParentEnd="true"
+        android:text="Kharghar,Mumbai" />
+
+    <!--<TextView
+        android:layout_width="36dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="15dp"
+        android:text="12"
+        android:id="@+id/danger_level"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center" />-->
+
+
+</RelativeLayout>

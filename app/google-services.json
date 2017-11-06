@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "797775521432",
+    "firebase_url": "https://criminal-data.firebaseio.com",
+    "project_id": "criminal-data",
+    "storage_bucket": "criminal-data.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797775521432:android:323c9ac2118e3841",
+        "android_client_info": {
+          "package_name": "com.example.shagun.criminalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797775521432-17e3sjki0pu0s843rhioroiqhs7d40fm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shagun.criminalapp",
+            "certificate_hash": "c361135b2de90e9d712ec1157effb26ec4853c9d"
+          }
+        },
+        {
+          "client_id": "797775521432-lcl1avc3097kggm5roqldfchtak9n1et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhZbd6jjpKAi_hJqWJM-VYmdEgw88qgVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797775521432-lcl1avc3097kggm5roqldfchtak9n1et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
